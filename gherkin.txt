@@ -1,0 +1,8 @@
+Given: A user is on the login page
+When: the user types in blank value in username
+Then: an error message should appear to say that username is required
+
+ 
+Given: A user is on the login page
+When: the user types in blank value in password
+Then: an error message should appear to say that password is required
